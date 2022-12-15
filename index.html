@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Random String Generator</h2>
+    String should be 
+    <input type="number" id="inputLength">
+    characters long.
+    <br>
+    Which characters are allowed to occur in the strings?
+    <br>
+    <input type="checkbox" id="bigLetters"> Uppercase letters (A-Z) <br>
+    <input type="checkbox" id="lowLetters"> Lowercase letters (a-z) <br>
+    <input type="checkbox" id="numbers"> Numeric digits (0-9) <br>
+    <input type="button" value="Generate" onclick="generateNumber()">
+    <hr>
+    <input type="text" id="answer" disabled>
+    <script src="script.js"></script>
+</body>
+</html>
